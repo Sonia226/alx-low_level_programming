@@ -2,7 +2,7 @@
 
 
 /**
- * main - check the code
+ * print_alphabet - Entry point
  *
  * Return: void
  */
