@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - Entry point
- * @n; The number to be treated
+ * @n: The number to be treated
  * Return: Value of the last digit of number
  */
 
