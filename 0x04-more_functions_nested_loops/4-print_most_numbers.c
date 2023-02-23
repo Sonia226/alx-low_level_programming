@@ -16,7 +16,7 @@ void print_most_numbers(void)
 	{
 	if (x == 2 || x == 4)
 	{
-	contiune;
+	continue;
 	}
 	else
 	{
