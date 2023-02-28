@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * puts2 - Prints every other character of a string
+ * put2 - Prints every other character of a string
  * @str: The stringto be treated
  * Return: void
  */
 
-void puts2(char *str)
+void put2(char *str)
 
 {
 	int i;
@@ -14,10 +14,10 @@ void puts2(char *str)
 
 	while (str[j] != '\0')
 	{
-	j++
+	j++;
 	}
 
-	for (i = 0; i < j; 1 += 2)
+	for (i = 0; i < j; i += 2)
 	{
 	_putchar(str[i]);
 	}
