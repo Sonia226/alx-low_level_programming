@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * put2 - Prints every other character of a string
- * @str: The stringto be treated
+ * puts2 - Prints every other character of a string
+ * @str: The string to be treated
  * Return: void
  */
 
-void put2(char *str)
+void puts2(char *str)
 
 {
 	int i;
