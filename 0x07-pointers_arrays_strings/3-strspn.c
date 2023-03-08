@@ -1,15 +1,17 @@
 #include "main.h"
 #include <stdio.h>
 
+#include "main.h"
+#include <stdio.h>
+
 /**
  * _strspn - Entry point
  * @s: input
  * @accept: input
- * Return : A=lways 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 unsigned int _strspn(char *s, char *accept)
-
 {
 	unsigned int i, n, value, check;
 
@@ -28,3 +30,10 @@ unsigned int _strspn(char *s, char *accept)
 			}
 		}
 		if (check == 0)
+		{
+			break;
+		}
+	}
+
+	return (value);
+}
