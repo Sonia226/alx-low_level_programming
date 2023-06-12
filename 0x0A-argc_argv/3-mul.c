@@ -41,9 +41,9 @@ int _customAtoi(char *s)
 	}
 
 	if (f == 0)
-		return 0;
+		return (0);
 
-	return n;
+	return (n);
 }
 
 /**
@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 	{
 		printf("Error\n");
-		return 1;
+		return (1);
 	}
 
 	operand1 = _customAtoi(argv[1]);
@@ -69,5 +69,5 @@ int main(int argc, char *argv[])
 
 	printf("%d\n", result);
 
-	return 0;
+	return (0);
 }
